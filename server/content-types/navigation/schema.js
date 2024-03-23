@@ -1,0 +1,57 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = {
+    collectionName: "navigations",
+    info: {
+        singularName: "navigation",
+        pluralName: "navigations",
+        displayName: "Navigation",
+        name: "navigation"
+    },
+    options: {
+        increments: true,
+        comment: ""
+    },
+    pluginOptions: {
+        "content-manager": {
+            visible: false
+        },
+        "content-type-builder": {
+            visible: false
+        }
+    },
+    attributes: {
+        name: {
+            type: "text",
+            configurable: false,
+            required: true
+        },
+        slug: {
+            type: "uid",
+            target: "name",
+            configurable: false,
+            required: true
+        },
+        visible: {
+            type: "boolean",
+            default: false,
+            configurable: false
+        },
+        items: {
+            type: "relation",
+            relation: "oneToMany",
+            target: "plugin::navigation.navigation-item",
+            configurable: false,
+            mappedBy: "master"
+        },
+        localizations: {
+            type: "relation",
+            relation: "oneToMany",
+            target: "plugin::navigation.navigation",
+        },
+        localeCode: {
+            type: "string"
+        }
+    }
+};
+//# sourceMappingURL=schema.js.map

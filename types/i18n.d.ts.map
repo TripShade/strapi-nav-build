@@ -1,0 +1,1 @@
+{"version":3,"file":"i18n.d.ts","sourceRoot":"","sources":["../../types/i18n.ts"],"names":[],"mappings":"AAAA,MAAM,MAAM,UAAU,GAAG;IACvB,EAAE,EAAE,MAAM,CAAC;IACX,IAAI,EAAE,MAAM,CAAC;IACb,IAAI,EAAE,MAAM,CAAC;CACd,CAAC;AAEF,MAAM,MAAM,eAAe,GAAG;IAC5B,MAAM,CAAC,EAAE,MAAM,CAAA;CAChB,CAAA"}

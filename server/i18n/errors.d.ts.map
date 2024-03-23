@@ -1,0 +1,1 @@
+{"version":3,"file":"errors.d.ts","sourceRoot":"","sources":["../../../server/i18n/errors.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,MAAM,6BAA6B,CAAC;AAE9D,qBAAa,yBAA0B,SAAQ,eAAe;gBAChD,OAAO,SAAgC;CAGpD;AAED,qBAAa,mBAAoB,SAAQ,eAAe;CAAG"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"NavigationError.js","sourceRoot":"","sources":["../../utils/NavigationError.js"],"names":[],"mappings":";AAAA,MAAM,eAAgB,SAAQ,KAAK;IACjC,YAAY,OAAO,EAAE,cAAc;QACjC,KAAK,CAAC,OAAO,CAAC,CAAC;QACf,IAAI,CAAC,cAAc,GAAG,cAAc,CAAC;IACvC,CAAC;CAEF;AAED,MAAM,CAAC,OAAO,GAAG;IACf,eAAe;CAChB,CAAC"}
